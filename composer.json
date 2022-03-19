@@ -14,8 +14,6 @@
         "symfony/runtime": "5.4.*",
         "symfony/yaml": "5.4.*"
     },
-    "require-dev": {
-    },
     "config": {
         "allow-plugins": {
             "composer/package-versions-deprecated": true,
@@ -63,5 +61,11 @@
             "allow-contrib": false,
             "require": "5.4.*"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:crevillo/flex-test"
+        }
+    ]
 }
